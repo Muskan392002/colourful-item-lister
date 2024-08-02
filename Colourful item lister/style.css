@@ -1,0 +1,40 @@
+/* Add to existing CSS */
+.item-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.item-list li:hover {
+    background: #e2e6ea;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-button, .delete-button {
+    background: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.edit-button:hover {
+    background: #ddd;
+}
+
+.delete-button:hover {
+    background: #ff6b6b;
+}
